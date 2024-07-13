@@ -29,7 +29,7 @@ video {
     text-align: center
 }
 
-h1{
+.heroText{
   opacity: 0;
   animation: fadeIn 0.5s ease-in forwards;
   animation-delay: 0s;
@@ -41,7 +41,7 @@ h4{
   animation-delay: 0.5s;
 }
 
-button {
+.heroBtn {
   opacity: 0;
   font-size: 15px;
   width: 350px;
