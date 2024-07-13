@@ -4,9 +4,9 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "About Me", href: "#" },
-  { name: "Portfolio", href: "#" },
-  { name: "Feedback", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "About Me", href: "/about" },
+  { name: "Portfolio", href: "/portfolio" },
 ];
 
 const Navbar = () => {
