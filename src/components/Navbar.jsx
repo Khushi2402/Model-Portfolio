@@ -43,7 +43,7 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <a href="#" className="text-sm font-semibold leading-6 text-black">
+            <a href="/contact" className="text-sm font-semibold leading-6 text-black">
               Contact Me <span aria-hidden="true">&rarr;</span>
             </a>
           </div>

@@ -4,7 +4,6 @@ import land1 from "../../assets/land1.jpg";
 import port1 from "../../assets/land11.jpg";
 import port2 from "../../assets/land12.jpg";
 import port3 from "../../assets/land13.jpg";
-import Footer from "../Footer";
 
 const Hero = () => {
   return (
@@ -20,7 +19,7 @@ const Hero = () => {
             <h4 className="lg:text-3xl text-white leading-tight mt-4">
               IN ACTION
             </h4>
-            <button className="heroBtn bg-black text-white px-24 py-4 tracking-widest mt-9 border">
+            <button href="/portfolio" className="heroBtn bg-black text-white px-24 py-4 tracking-widest mt-9 border">
               GO TO PORTFOLIO
             </button>
           </div>
@@ -55,7 +54,7 @@ const Hero = () => {
                 </p>
 
                 <a
-                  href="#"
+                  href="/contact"
                   className="mt-8 inline-block rounded border border-black bg-black px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-black"
                 >
                   Get in Touch
@@ -78,7 +77,7 @@ const Hero = () => {
               fugit natus?
             </p>
             <a
-              href="#"
+              href="/portfolio"
               className="mt-8 inline-block rounded border border-black bg-black px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-black"
             >
               Go to Portfolio
@@ -117,54 +116,7 @@ const Hero = () => {
             </li>
           </ul>
         </div>
-      </section>
-      <section>
-        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-lg text-center">
-            <h1 className="text-2xl font-bold sm:text-3xl">Enquire now</h1>
-
-            <p className="mt-4 text-gray-500">Got any questions? Ask away!</p>
-          </div>
-
-          <form action="#" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
-            <div>
-              <label htmlFor="email" className="sr-only">
-                Email
-              </label>
-
-              <div className="relative">
-                <input
-                  type="email"
-                  className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-                  placeholder="Enter email"
-                />
-              </div>
-            </div>
-
-            <div>
-              <label htmlFor="password" className="sr-only">
-                Message
-              </label>
-
-              <div className="relative">
-                <input
-                  type="password"
-                  className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-                  placeholder="Message"
-                />
-              </div>
-            </div>
-            <div className="text-center">
-              <a
-                href="#"
-                className="inline-block rounded border border-black bg-black px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-black"
-              >
-                Go to Portfolio
-              </a>
-            </div>
-          </form>
-        </div>
-      </section>
+      </section> 
     </>
   );
 };
