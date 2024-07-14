@@ -15,9 +15,8 @@ const About = () => {
                     About Me
                   </h2>
 
-                  <p className="mt-4 text-gray-500">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Quas rerum quam amet provident nulla error!
+                  <p className="mt-4 text-gray-500 text-justify">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt odio ea illum quam error dolorem officia, facere corrupti facilis. Sunt vero doloremque ipsa quod culpa, accusamus deleniti provident necessitatibus officia earum laboriosam in accusantium! Maiores blanditiis hic repudiandae, suscipit ex fugit nostrum perspiciatis. Nesciunt iure nobis maxime facere totam obcaecati quis modi officiis, nemo qui excepturi non ullam distinctio corrupti optio assumenda illo explicabo expedita repellendus, quidem omnis in. Labore.
                   </p>
                 </header>
               </div>

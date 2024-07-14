@@ -86,7 +86,7 @@ const Hero = () => {
 
           <ul className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-3">
             <li>
-              <a href="#" className="group relative block">
+              <a href="/portfolio" className="group relative block">
                 <img
                   src={port1}
                   alt=""
@@ -96,7 +96,7 @@ const Hero = () => {
             </li>
 
             <li>
-              <a href="#" className="group relative block">
+              <a href="/portfolio" className="group relative block">
                 <img
                   src={port2}
                   alt=""
@@ -106,7 +106,7 @@ const Hero = () => {
             </li>
 
             <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
-              <a href="#" className="group relative block">
+              <a href="/portfolio" className="group relative block">
                 <img
                   src={port3}
                   alt=""
